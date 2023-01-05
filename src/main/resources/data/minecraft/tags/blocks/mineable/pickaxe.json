@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "dream:zircon_block",
+    "dream:zircon_ore",
+    "dream:deepslate_zircon_ore"
+  ]
+}

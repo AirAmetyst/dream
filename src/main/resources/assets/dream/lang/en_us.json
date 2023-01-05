@@ -2,5 +2,11 @@
   "item.dream.zircon": "Zircon",
   "item.dream.raw_zircon": "Raw Zircon",
 
+
+
+  "block.dream.zircon_block": "Block of Zircon",
+  "block.dream.zircon_ore": "Zircon Ore",
+  "block.dream.deepslate_zircon_ore": "Deepslate Zircon Ore",
+
   "itemGroup.dream": "Dream"
 }

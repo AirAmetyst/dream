@@ -1,6 +1,7 @@
 package net.ephyr.dream;
 
 import com.mojang.logging.LogUtils;
+import net.ephyr.dream.block.ModBlocks;
 import net.ephyr.dream.item.ModItems;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
@@ -30,6 +31,7 @@ public class Dream
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
         ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);
 
